@@ -9,7 +9,7 @@
 <form action="LoginServlet" method="post" class="center">
     <h3>Log in</h3>
     login: <input type="text" name="login"> <br>
-    password: <input type="text" name="password"> <br>
+    password: <input type="password" name="password"> <br>
     <input type="submit" value="submit"> <br>
     <a href="registration.jsp">registration</a>
 </form>

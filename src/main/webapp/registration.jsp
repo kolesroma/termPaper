@@ -13,7 +13,7 @@
     passport id: <input type="text" name="passportId"> <br>
     age: <input type="text" name="age"> <br>
     mobile phone: <input type="text" name="phone"> <br>
-    password: <input type="text" name="password"> <br>
+    password: <input type="password" name="password"> <br>
     <input type="submit" value="submit"> <br>
 </form>
 </body>

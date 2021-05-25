@@ -15,8 +15,8 @@
     <%
         for (String userLogin : ApplicationContainer.getUsers().keySet()) {
             String s = "VoterServlet?user=" + userLogin
-                    + "&petition=" + Extractor.getName(userLogin)
-                    + "&description=" + Extractor.getDescription(userLogin);
+                    + "&petition=" + Extractor.getName(userLogin).replace(" ","-")
+                    + "&description=" + Extractor.getDescription(userLogin).replace(" ","-");
     %>
             <a href=<%=s%>><%=Extractor.getName(userLogin)%></a>
             <%=Extractor.getVoices(userLogin)%> <br>
